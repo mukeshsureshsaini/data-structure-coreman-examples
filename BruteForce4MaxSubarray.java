@@ -12,7 +12,7 @@ public class BruteForce4MaxSubarray{
 			long maxSum = 0;
 			int startIndex = 0; 
 			int endIndex = 0; 
-			for(int i =0 ;i< array.length ;i++){ // from keeping tracking start index
+			for(int i =0 ;i< array.length ;i++){ // for keep tracking start index
 				int sumEndingHere = 0;
 				for(int j =i; j< array.length ; j++){
 					sumEndingHere +=array[j];
