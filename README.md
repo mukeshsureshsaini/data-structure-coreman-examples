@@ -1,1 +1,1 @@
-# data-structure-coreman-examples
+# data-structure-dynamic-programming-examples
