@@ -131,21 +131,22 @@ public class NextPalindromNumber {
 
 	public static void main(String[] args) {
 
-		System.out.println(nextPalindrome("45312"));
-		System.out.println(nextPalindrome("12345"));
-		System.out.println(nextPalindrome("12945"));
-		System.out.println(nextPalindrome("4531"));
-		System.out.println(nextPalindrome("1459"));
-		System.out.println(nextPalindrome("1997"));
+//		System.out.println(nextPalindrome("45312"));
+//		System.out.println(nextPalindrome("12345"));
+//		System.out.println(nextPalindrome("12945"));
+//		System.out.println(nextPalindrome("4531"));
+//		System.out.println(nextPalindrome("1459"));
+//		System.out.println(nextPalindrome("1997"));
+		System.out.println(nextPalindrome("2"));
 
 		System.out.println("------------------------------");
 
-		System.out.println(bruteForceNextPalindromeNumber(45312));
-		System.out.println(bruteForceNextPalindromeNumber(12345));
-		System.out.println(bruteForceNextPalindromeNumber(12945));
-		System.out.println(bruteForceNextPalindromeNumber(4531));
-		System.out.println(bruteForceNextPalindromeNumber(1459));
-		System.out.println(bruteForceNextPalindromeNumber(1997));
+//		System.out.println(bruteForceNextPalindromeNumber(45312));
+//		System.out.println(bruteForceNextPalindromeNumber(12345));
+//		System.out.println(bruteForceNextPalindromeNumber(12945));
+//		System.out.println(bruteForceNextPalindromeNumber(4531));
+//		System.out.println(bruteForceNextPalindromeNumber(1459));
+//		System.out.println(bruteForceNextPalindromeNumber(1997));
 	}
 
 	public static int bruteForceNextPalindromeNumber(int x) {

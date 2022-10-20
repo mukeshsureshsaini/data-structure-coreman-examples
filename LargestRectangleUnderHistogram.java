@@ -37,9 +37,7 @@ public class LargestRectangleUnderHistogram {
 				int leftSideSmallHeightIndex = stack.pop();
 				int leftSideHeight = heights[leftSideSmallHeightIndex];
 				int width = stack.isEmpty() ? i : (i - 1) - stack.peek();
-
 				maxArea = Math.max(maxArea, leftSideHeight * width);
-
 				i--; // since we still need to process i ,we decrement it , i++ in loop will
 						// increment
 						// it so we still be on element i
