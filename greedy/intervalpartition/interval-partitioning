@@ -1,0 +1,6 @@
+Interval partition is a problem where we need number of class room to schedule all lectures
+
+
+SORT all lectures with start time
+
+check room and lecture compatibility 
